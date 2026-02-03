@@ -1,10 +1,34 @@
-# Contributing to AIteacher
+# Contributing to Human+AI Education
 
-Thank you for your interest in contributing to AIteacher!
+Thank you for your interest in contributing to Human+AI Education!
 
 ## Project Philosophy
 
 This is a static website project designed for simplicity and accessibility.
+
+## Git Setup (Intel Network)
+
+If you're working on the Intel network, you need to configure proxy settings before pushing to GitHub.
+
+### PowerShell (Recommended)
+Run these commands before git push:
+```powershell
+$env:HTTP_PROXY = "http://proxy-iil.intel.com:912"
+$env:HTTPS_PROXY = "http://proxy-iil.intel.com:912"
+git push
+```
+
+### Or set git config permanently:
+```powershell
+git config --global http.proxy http://proxy-iil.intel.com:912
+git config --global https.proxy http://proxy-iil.intel.com:912
+```
+
+To remove proxy config later (if working off Intel network):
+```powershell
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
 
 ## Key Requirements
 
