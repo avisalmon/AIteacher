@@ -3,12 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Human+AI Education</title>
+    <title>Embodied Competence in the AI Era | Human+AI Education</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* ===== Reset & Base ===== */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --primary: #1a365d;
+            --primary-light: #2c5282;
+            --secondary: #38a169;
+            --accent: #ed8936;
+            --text-dark: #1a202c;
+            --text-medium: #4a5568;
+            --text-light: #718096;
+            --bg-light: #f7fafc;
+            --bg-white: #ffffff;
+            --border: #e2e8f0;
+            --font-heading: 'Merriweather', Georgia, serif;
+            --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --container-max: 820px;
+            --container-padding: 1.5rem;
+        }
+
+        html { font-size: 16px; scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ===== Header ===== */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: var(--bg-white);
+            padding: 2rem var(--container-padding);
+            text-align: center;
+        }
+        .header-container { max-width: var(--container-max); margin: 0 auto; }
+        .logo { display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-bottom: 0.25rem; }
+        .logo-icon { font-size: 2rem; font-weight: 700; color: var(--secondary); background-color: var(--bg-white); padding: 0.2rem 0.5rem; border-radius: 6px; }
+        .logo-text { font-family: var(--font-heading); font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; }
+        .tagline { font-size: 1.125rem; font-weight: 300; opacity: 0.9; letter-spacing: 0.02em; }
+
+        /* ===== Video ===== */
+        .video-section { text-align: center; padding: 2.5rem var(--container-padding) 0; }
+        .video-wrapper {
+            position: relative; width: 560px; max-width: 100%; margin: 0 auto;
+            aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15); background-color: var(--text-dark);
+        }
+        .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+        /* ===== Article ===== */
+        .article {
+            max-width: var(--container-max);
+            margin: 0 auto;
+            padding: 2.5rem var(--container-padding) 4rem;
+        }
+
+        .article h1 {
+            font-family: var(--font-heading);
+            font-size: 2.25rem;
+            color: var(--primary);
+            margin-bottom: 0.25rem;
+            line-height: 1.25;
+        }
+
+        .article .subtitle {
+            font-family: var(--font-heading);
+            font-size: 1.15rem;
+            color: var(--text-light);
+            font-weight: 400;
+            margin-bottom: 2.5rem;
+            font-style: italic;
+        }
+
+        .article h2 {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--primary);
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 2px solid var(--secondary);
+        }
+
+        .article h3 {
+            font-family: var(--font-heading);
+            font-size: 1.2rem;
+            color: var(--primary-light);
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .article p {
+            color: var(--text-medium);
+            font-size: 1.05rem;
+            margin-bottom: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .article strong { color: var(--text-dark); }
+
+        .article em { font-style: italic; }
+
+        .article a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        .article a:hover { border-bottom-color: var(--secondary); }
+
+        .article blockquote {
+            margin: 1.5rem 0;
+            padding: 1rem 1.5rem;
+            background-color: var(--bg-white);
+            border-left: 4px solid var(--secondary);
+            border-radius: 0 8px 8px 0;
+            color: var(--text-medium);
+            font-size: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .article blockquote p { margin-bottom: 0.5rem; font-size: 1rem; }
+        .article blockquote p:last-child { margin-bottom: 0; }
+
+        .article ul, .article ol {
+            margin: 1rem 0 1.5rem 1.5rem;
+            color: var(--text-medium);
+            font-size: 1.05rem;
+        }
+        .article li { margin-bottom: 0.5rem; line-height: 1.7; }
+        .article li strong { color: var(--text-dark); }
+
+        .article hr {
+            border: none;
+            height: 1px;
+            background-color: var(--border);
+            margin: 2.5rem 0;
+        }
+
+        /* ===== Tables ===== */
+        .table-wrap { overflow-x: auto; margin: 1.5rem 0; }
+        .article table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+            background-color: var(--bg-white);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .article th {
+            background-color: var(--primary);
+            color: var(--bg-white);
+            padding: 0.85rem 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+        .article td {
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-medium);
+            vertical-align: top;
+        }
+        .article tr:last-child td { border-bottom: none; }
+        .article tr:nth-child(even) td { background-color: var(--bg-light); }
+
+        /* ===== Closing Note ===== */
+        .closing-note {
+            margin-top: 2rem;
+            font-size: 0.92rem;
+            color: var(--text-light);
+            font-style: italic;
+            text-align: center;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 768px) {
+            .logo-text { font-size: 1.5rem; }
+            .tagline { font-size: 1rem; }
+            .article h1 { font-size: 1.75rem; }
+            .article h2 { font-size: 1.35rem; }
+            .article { padding: 1.5rem var(--container-padding) 3rem; }
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -22,77 +211,212 @@
         </div>
     </header>
 
-    <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link active">Home</a></li>
-                <li><a href="pages/framework.html" class="nav-link">Framework</a></li>
-                <li><a href="pages/research.html" class="nav-link">Research</a></li>
-                <li><a href="pages/evidence.html" class="nav-link">Evidence</a></li>
-                <li><a href="pages/resources.html" class="nav-link">Resources</a></li>
-            </ul>
+    <!-- Video -->
+    <section class="video-section">
+        <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VkF3c2rR3_8?si=Z5ceBlJ64NHlfkXi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-    </nav>
+    </section>
 
-    <!-- Main Content -->
-    <main class="main">
-        <div class="container">
-            
-            <!-- Download Button -->
-            <section class="download-section">
-                <a href="reference/AI educators.pdf" target="_blank" class="download-button">
-                    Download Full Research (PDF)
-                </a>
-            </section>
+    <!-- Article -->
+    <article class="article">
 
-            <!-- Video Section -->
-            <section class="video-section">
-                <div class="video-wrapper">
-                    <iframe 
-                        width="560" 
-                        height="315" 
-                        src="https://www.youtube.com/embed/aNyjxRphYSE?si=dQGKuW5EuZ4NFus0" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        referrerpolicy="strict-origin-when-cross-origin" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-            </section>
+        <h1>Embodied Competence in the AI Era</h1>
+        <p class="subtitle">Must Educators Practice the "Human Operating System" to Teach It?</p>
 
-            <!-- Executive Summary -->
-            <section class="executive-section">
-                <h2>The Future of Education Starts with Teachers</h2>
-                <p>
-                    In an era where artificial intelligence is reshaping every aspect of our lives, education stands at a pivotal crossroads. The question is no longer whether AI will transform classrooms, but how we prepare educators to lead this transformation. Research across 50 countries reveals a clear consensus: teachers must become both competent practitioners of AI and skilled cultivators of essential human competencies in their students.
-                </p>
-                <p>
-                    This is not about replacing teachers with technology. It is about amplifying human potential. When educators master critical inquiry, ethical AI use, and adaptive thinking, they model these vital skills for the next generation. The evidence shows that AI can enhance learning outcomes significantly, but only when teachers guide its integration with intention and wisdom.
-                </p>
-                <p>
-                    AIteacher is built on this foundation: empowering educators with the knowledge, tools, and frameworks they need to thrive in an AI rich world while keeping humanity at the center of learning.
-                </p>
-            </section>
+        <!-- The Core Question -->
+        <h2>The Core Question</h2>
+        <p>The debate in AI education has moved beyond <em>"Should we teach AI?"</em> to a deeper dilemma:</p>
+        <blockquote>
+            <p><strong>Is it enough for teachers to understand the five "Human Operating System" competencies and design activities around them (Option A)?<br>
+            Or must teachers live these competencies, practice them, fail, correct course, and demonstrate real time judgment while working with AI (Option B)?</strong></p>
+        </blockquote>
+        <p>The difference is between <em>knowing about</em> a competency (I can define what verification means) and <em>knowing how to do it under pressure</em> (I can catch a convincing AI hallucination while 30 students watch, and show them how I did it).</p>
+        <p>The research points to a clear answer: <strong>teachers need at least a meaningful level of embodied practice</strong>, what we call <strong>"sufficient embodiment" (B-lite)</strong>, to make the Human Operating System real for students rather than rhetorical.</p>
 
+        <hr>
+
+        <!-- Why This Matters Now -->
+        <h2>Why This Matters Now</h2>
+
+        <h3>AI as "Surrogate Knower"</h3>
+        <p>Generative AI systems act as an alternative knowledge source in the classroom. They produce fluent, confident sounding text, even when wrong. This structurally undermines the teacher's traditional role as "the one who knows."</p>
+        <p>The teacher's legitimacy shifts: <strong>from "I have the answers" to "I can show you how to verify, judge, and hold uncertainty."</strong> This is what researchers call becoming an <em>epistemic mentor</em>, someone who teaches how knowledge is justified, not just delivered.</p>
+        <blockquote>
+            <p>See: <a href="https://doi.org/10.3389/feduc.2025.1647687" target="_blank">Epistemic Authority and Generative AI in Learning Spaces</a> (Jose et al., 2025), on how GenAI disrupts knowledge authority in classrooms.</p>
+        </blockquote>
+
+        <h3>Cognitive Offloading: The Hidden Threat</h3>
+        <p>Emerging research (2023 to 2026) shows a concerning pattern: frequent AI use correlates with decreased critical thinking behaviors, mediated by <em>cognitive offloading</em>, the tendency to delegate mental effort to the tool.</p>
+        <p>A <a href="https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking/" target="_blank">Microsoft Research study</a> of 319 knowledge workers found that higher AI usage was associated with lower critical thinking engagement, particularly when the system was perceived as trustworthy.</p>
+        <p>Another study found that the relationship between AI use and reduced critical thinking is significantly mediated by offloading. People who habitually hand over judgment to AI get fewer opportunities to practice monitoring and evaluation.</p>
+        <blockquote>
+            <p><strong>Key caveat:</strong> Most of these studies are correlational, not causal. It's possible that people with weaker critical thinking tendencies are simply drawn to heavier AI use. But the mechanism is psychologically plausible and the pattern is consistent.</p>
+        </blockquote>
+        <p><strong>What this means for teachers:</strong> If even experienced adults slip into uncritical reliance, teachers who haven't personally navigated this temptation will struggle to recognize, let alone counter, the same pattern in students.</p>
+
+        <hr>
+
+        <!-- The Evidence for Embodiment -->
+        <h2>The Evidence for Embodiment</h2>
+
+        <h3>1. Cognitive Apprenticeship: Making Thinking Visible</h3>
+        <p>The foundational model of <a href="https://www.aft.org/ae/winter1991/collins_brown_holum" target="_blank">cognitive apprenticeship</a> (Collins, Brown &amp; Holum, 1991) describes learning complex skills through a chain of: <strong>modeling, coaching, scaffolding, fading, articulation, reflection, and exploration.</strong></p>
+        <p>The central thesis: in cognitive skills, the gap between novice and expert isn't just "more knowledge" but a set of invisible control and judgment strategies. Teaching must make these visible so students can observe, imitate, and internalize them.</p>
+        <p>In an AI saturated classroom, this means: <strong>someone has to demonstrate what it looks like to question AI, catch errors, compare sources, and resist the pull of instant answers.</strong> If the teacher hasn't practiced this, the modeling function breaks down.</p>
+
+        <h3>2. Observational Learning: Students Learn from What Teachers Do, Not Just What They Say</h3>
+        <p>Drawing on <a href="https://doi.org/10.1037/h0032848" target="_blank">Bandura's social learning theory</a>, students internalize norms and processes by watching behavior, especially when that behavior includes attention cues, strategy selection, and error correction.</p>
+        <p>In practice: students will learn "what counts as intellectual work" from what the teacher actually does with AI. Does the teacher check sources? Compare outputs? Correct overconfidence? Or just accept and move on? <strong>The hidden curriculum is in the teacher's behavior.</strong></p>
+
+        <h3>3. Teaching Critical Thinking Requires More Than Immersion</h3>
+        <p>Large meta-analyses on critical thinking instruction show that explicit teaching of strategies (analysis, evaluation, justification) produces stronger effects than "immersion", meaning simply hoping students develop critical thinking through content exposure.</p>
+        <blockquote>
+            <p>See: <a href="https://doi.org/10.3102/0034654314551063" target="_blank">Abrami et al., 2015, Meta-analysis on critical thinking instruction</a></p>
+        </blockquote>
+        <p><strong>For the A/B dilemma:</strong> A teacher who "understands" critical evaluation conceptually but can't demonstrate it live, in real time, with a convincing but flawed AI output, risks staying at the level of <em>language about thinking</em> rather than <em>thinking in action</em>. This makes transfer to new situations unlikely for students.</p>
+
+        <h3>4. Transfer Doesn't Happen Automatically</h3>
+        <p>Research by <a href="https://doi.org/10.1177/0022487108322110" target="_blank">Perkins &amp; Salomon</a> on learning transfer shows that skills don't automatically move from one context to another. It requires:</p>
+        <ul>
+            <li><strong>Hugging:</strong> practicing in conditions close to the real application</li>
+            <li><strong>Bridging:</strong> explicit metacognitive reflection connecting contexts</li>
+            <li><strong>Demonstration:</strong> showing students what "the move" looks like across settings</li>
+        </ul>
+        <p>In AI rich environments, the critical transfer question is: <em>Can students recognize when AI is "doing the work" vs. when they need to take back control?</em> Teachers need to demonstrate this judgment, which requires having practiced it themselves.</p>
+
+        <h3>5. Verification Can Be Taught, But It Takes Real Practice</h3>
+        <p>A <a href="https://doi.org/10.1177/02734753251319559" target="_blank">2025 study on "inoculation training"</a> (Zarzosa &amp; Ruvalcaba, 2025) found that targeted training can increase both <em>intentions to verify</em> and <em>actual verification behavior</em> in educational tasks.</p>
+        <p>This is encouraging: the problem isn't deterministic. But the training requires someone who understands <em>in practice</em> what verification looks like: what to check first, how to find counter sources, how to spot AI overconfidence. General advice ("check your sources") doesn't survive contact with the speed and fluency of AI-generated content.</p>
+
+        <hr>
+
+        <!-- The Authenticity and Trust Gap -->
+        <h2>The Authenticity and Trust Gap</h2>
+
+        <h3>Students Detect Hypocrisy</h3>
+        <p>Research on student perceptions of teacher authenticity shows that students judge teachers on <strong>competence, commitment, coherence, and care</strong>. When there's a gap between what a teacher preaches and what they practice (for instance, banning student AI use while quietly using it themselves) students interpret this as unfairness or inconsistency.</p>
+        <blockquote>
+            <p>See: <a href="https://doi.org/10.3389/fpsyg.2021.712419" target="_blank">Teacher credibility and student engagement</a> (Zheng, 2021), on how perceived credibility affects student engagement.</p>
+        </blockquote>
+        <p>A <a href="https://doi.org/10.1177/0013161X231183662" target="_blank">35-year meta-analysis on teacher trust</a> (Sun, Zhang &amp; Forsyth, 2023) shows a consistent, moderate positive relationship between trust and learning outcomes. In a system where epistemic authority is shifting, trust becomes infrastructure. It determines whether students adopt thinking norms or see them as performance.</p>
+
+        <h3>The Ethical Dimension: Modeling, Not Just Rules</h3>
+        <p>In ethics and academic integrity, literature on <a href="https://doi.org/10.1080/13540602.2023.2172391" target="_blank">moral character education</a> and James Rest's <a href="https://doi.org/10.4324/9781410601162" target="_blank">Four Component Model</a> (moral sensitivity, judgment, motivation, action) emphasizes that moral development requires practice in real situations, not just definitions.</p>
+        <p>In the AI era, where "AI plagiarism" blurs the line between help and cheating, students need to see adults making authentic judgment calls in gray areas and explaining their reasoning. A teacher who hasn't wrestled with these boundaries personally will default to abstract rules that don't survive contact with real dilemmas.</p>
+
+        <hr>
+
+        <!-- The Philosophical Foundation -->
+        <h2>The Philosophical Foundation</h2>
+        <p>Three traditions frame the argument:</p>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>Thinker</th><th>Key Idea</th><th>Application in the AI Era</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>John Dewey</strong></td>
+                        <td>Learning is reconstruction of experience. Quality depends on the experience itself, not just correct declarations</td>
+                        <td>Teachers need genuine AI experiences (including failures) to develop adaptive habits, not just conceptual understanding</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Paulo Freire</strong></td>
+                        <td>Praxis means unity of reflection and action. You can't just talk about criticality</td>
+                        <td>AI can turn both teachers and students into passive consumers of "ready-made text"; praxis demands active struggle with that temptation</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Donald Sch&ouml;n</strong></td>
+                        <td>Professional competence is reflection in action: navigating unique, uncertain, conflictual situations</td>
+                        <td>GenAI creates exactly this kind of uncertainty (Is the output reliable? Is the comparison fair? What counts as original work?), making the "reflective practitioner" a foundational requirement</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-section footer-center">
-                <h3>Stay Connected</h3>
-                <p>Questions or feedback? Get in touch:</p>
-                <a href="mailto:avi.salmon@intel.com" class="email-link">avi.salmon@intel.com</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Human+AI Education. All rights reserved.</p>
-        </div>
-    </footer>
+        <hr>
 
-    <script src="js/main.js"></script>
+        <!-- What "Sufficient Embodiment" Looks Like -->
+        <h2>What "Sufficient Embodiment" Looks Like</h2>
+        <p>The research doesn't demand that every teacher become an AI power user. It defines a pragmatic middle ground, <strong>enough practice to meet four conditions:</strong></p>
+        <ol>
+            <li><strong>Recognize offloading temptations:</strong> know from experience where judgment gets delegated to AI</li>
+            <li><strong>Demonstrate verification and cross checking:</strong> model lateral reading, source triangulation, and hallucination detection in real time</li>
+            <li><strong>Lead value based discussions authentically:</strong> engage with ethical gray areas from lived experience, not just policy documents</li>
+            <li><strong>Sustain professional reflection:</strong> continuously update practice through deliberate AI engagement, not one time workshops</li>
+        </ol>
+
+        <h3>What This Means for Each Competency</h3>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>Competency</th><th>What Embodiment Adds</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Question Formulation &amp; Inquiry</strong></td>
+                        <td>Not just teaching "good questions" but showing how to refine, iterate, and turn a question into a verification process when working with AI</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Critical Evaluation of AI Output</strong></td>
+                        <td>Impossible to build "epistemic suspicion" without having personally encountered convincing, well formatted AI errors</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ethical Judgment &amp; Responsible Use</strong></td>
+                        <td>Character education research shows moral development requires consistency, relationship, and mediation. Teachers must model the same rules they set</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Adaptive Learning Under Uncertainty</strong></td>
+                        <td>SRL (self regulated learning) research supports modeling of monitoring and control. The teacher shows how they update their own knowledge</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Keeping the Human Above the Machine</strong></td>
+                        <td>This is inherently relational: trust, agency, responsibility. It cannot be delegated; it must be embodied</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr>
+
+        <!-- What's Strong and What's Still Emerging -->
+        <h2>What's Strong and What's Still Emerging</h2>
+
+        <h3>Well Established (broad research base):</h3>
+        <ul>
+            <li>Cognitive apprenticeship and making thinking visible as effective pedagogy</li>
+            <li>Explicit instruction outperforms immersion for critical thinking development</li>
+            <li>SRL and metacognition interventions improve strategies and outcomes</li>
+            <li>Transfer requires deliberate design (hugging, bridging, reflection)</li>
+        </ul>
+
+        <h3>Emerging (2023 to 2026; more surveys and field studies than RCTs):</h3>
+        <ul>
+            <li>Frequent GenAI use correlates with reduced critical thinking (but causality is unproven)</li>
+            <li>Targeted inoculation training can increase verification behavior</li>
+            <li>Teachers using ChatGPT for professional development show reflective growth when structured properly</li>
+        </ul>
+
+        <h3>The Key Gap</h3>
+        <p>There are <strong>no direct comparative studies</strong> measuring: <em>Do students develop the five competencies better when their teachers have personally practiced them vs. teachers who only understand them conceptually?</em> The evidence is mechanism based (cognitive apprenticeship, modeling, transfer theory) rather than direct experimental proof. This is the most valuable open research question in the field.</p>
+
+        <hr>
+
+        <!-- The Bottom Line -->
+        <h2>The Bottom Line</h2>
+        <p><strong>Option A</strong> (understand and design activities) may work for isolated, one off lessons. But in an AI saturated environment, it's vulnerable to two systematic failures:</p>
+        <ol>
+            <li><strong>Mechanism failure:</strong> Students never see <em>how to think</em> against the pull of instant AI answers, so they don't build real-time verification and judgment protocols.</li>
+            <li><strong>Legitimacy failure:</strong> Students infer norms from teacher behavior (including avoidance or uncritical use). The gap between what's said and what's done undermines trust and adoption of the competencies.</li>
+        </ol>
+        <p><strong>The sustainable path is sufficient embodiment:</strong> teachers who practice enough to recognize the temptations, demonstrate the thinking, and hold the norms, not as AI experts, but as authentic epistemic mentors navigating the same uncertain landscape as their students.</p>
+
+        <hr>
+
+        <p class="closing-note">Based on a comprehensive research synthesis drawing on cognitive apprenticeship theory, epistemic authority in AI environments, metacognition and transfer research, moral development frameworks, and emerging 2023 to 2026 empirical studies on GenAI and critical thinking.</p>
+
+    </article>
+
 </body>
 </html>
