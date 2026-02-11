@@ -84,7 +84,7 @@ A [2025 study on "inoculation training"](https://doi.org/10.1177/027347532513195
 
 This competency addresses integrity, intellectual ownership, responsibility for biases and consequences, and considerations of fairness and transparency. In the AI era, where "AI plagiarism" blurs the line between help and cheating, students face genuine moral confusion: when does prompting become replacing? What counts as original work? What is the responsibility when AI output contains bias?
 
-Literature on [moral character education](https://doi.org/10.1080/13540602.2023.2172391) shows small to moderate positive effects from character education programs, but emphasizes that what matters most is **consistency, relationship, climate, and the role of meaningful adults.** Moral development isn't about memorizing rules. It's about practicing judgment in real situations.
+Literature on [moral character education](https://doi.org/10.1080/01626620.2016.1194785) (Lapsley & Woodbury, 2016) shows small to moderate positive effects from character education programs, but emphasizes that what matters most is **consistency, relationship, climate, and the role of meaningful adults.** Moral development isn't about memorizing rules. It's about practicing judgment in real situations.
 
 James Rest's [Four Component Model](https://doi.org/10.4324/9781410601162) (moral sensitivity, judgment, motivation, action) reinforces this: ethical behavior requires all four components working together, and each must be practiced, not just understood conceptually.
 
