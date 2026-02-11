@@ -48,7 +48,7 @@ Two foundational frameworks underpin the argument across all five competencies:
 
 **[Cognitive apprenticeship](https://www.aft.org/ae/winter1991/collins_brown_holum)** (Collins, Brown & Holum, 1991) describes learning complex skills through modeling, coaching, scaffolding, fading, articulation, reflection, and exploration. The central thesis: in cognitive skills, the gap between novice and expert isn't just "more knowledge" but a set of invisible control and judgment strategies. Teaching must make these visible. In an AI saturated classroom, **someone has to demonstrate what each competency looks like in action.** If the teacher hasn't practiced it, the modeling function breaks down.
 
-**[Bandura's social learning theory](https://doi.org/10.1037/h0032848)** shows that students internalize norms and processes by watching behavior, especially when that behavior includes attention cues, strategy selection, and error correction. Students will learn "what counts as intellectual work" from what the teacher actually does with AI. **The hidden curriculum is in the teacher's behavior**, and it affects all five competencies simultaneously.
+**[Bandura's social cognitive theory](https://doi.org/10.1037/0003-066X.44.9.1175)** (1989) shows that students internalize norms and processes by watching behavior, especially when that behavior includes attention cues, strategy selection, and error correction. Students will learn "what counts as intellectual work" from what the teacher actually does with AI. **The hidden curriculum is in the teacher's behavior**, and it affects all five competencies simultaneously.
 
 ---
 
@@ -64,7 +64,7 @@ In AI rich environments, the risk escalates: if "exploring with AI" becomes tria
 
 **Why embodiment matters:** A teacher who has practiced questioning AI outputs knows from experience how a vague question produces misleading confidence, how rephrasing reveals gaps, and how a question can be turned into a verification chain. Without this lived experience, instruction stays at the level of "ask good questions" rather than showing the messy, iterative reality of inquiry.
 
-> Research by [Salomon & Perkins](https://doi.org/10.1207/s15326985ep2402_1) on learning transfer shows that skills don't move from one context to another automatically. Transfer requires "hugging" (practicing close to real conditions), "bridging" (explicit metacognitive reflection), and demonstration of what "the move" looks like across settings. Teachers need to model the entire arc: from confusion to clarity to verification.
+> Research by [Salomon & Perkins](https://web.archive.org/web/20081203104029/http://learnweb.harvard.edu/alps/thinking/docs/traencyn.htm) on learning transfer shows that skills don't move from one context to another automatically. Transfer requires "hugging" (practicing close to real conditions), "bridging" (explicit metacognitive reflection), and demonstration of what "the move" looks like across settings. Teachers need to model the entire arc: from confusion to clarity to verification.
 
 ### 2. Critical Evaluation of AI Output
 
