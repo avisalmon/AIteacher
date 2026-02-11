@@ -64,7 +64,7 @@ In AI rich environments, the risk escalates: if "exploring with AI" becomes tria
 
 **Why embodiment matters:** A teacher who has practiced questioning AI outputs knows from experience how a vague question produces misleading confidence, how rephrasing reveals gaps, and how a question can be turned into a verification chain. Without this lived experience, instruction stays at the level of "ask good questions" rather than showing the messy, iterative reality of inquiry.
 
-> Research by [Perkins & Salomon](https://doi.org/10.1177/0022487108322110) on learning transfer shows that skills don't move from one context to another automatically. Transfer requires "hugging" (practicing close to real conditions), "bridging" (explicit metacognitive reflection), and demonstration of what "the move" looks like across settings. Teachers need to model the entire arc: from confusion to clarity to verification.
+> Research by [Salomon & Perkins](https://doi.org/10.1207/s15326985ep2402_1) on learning transfer shows that skills don't move from one context to another automatically. Transfer requires "hugging" (practicing close to real conditions), "bridging" (explicit metacognitive reflection), and demonstration of what "the move" looks like across settings. Teachers need to model the entire arc: from confusion to clarity to verification.
 
 ### 2. Critical Evaluation of AI Output
 
