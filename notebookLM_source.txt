@@ -1,0 +1,278 @@
+THE FALSE BINARY IN EDUCATION: Should Teachers Possess the Required Competencies, or Focus on Cultivating Them in Students?
+
+A comprehensive research-backed analysis by Human+AI Education (avisalmon.github.io/AIteacher)
+
+========================================
+PART 1: THE QUESTION
+========================================
+
+As education adapts to the age of artificial intelligence, one question keeps surfacing in faculty rooms, policy meetings, and professional development workshops around the world:
+
+"Should lecturers and teachers themselves possess the required skills and competencies, or should their primary expertise lie in the ability to cultivate these skills among their students and pupils?"
+
+This is not an abstract philosophical question. It directly determines how institutions invest their training budgets, how professional development is designed, and what we expect from teachers in classrooms where students have instant access to AI-generated answers.
+
+Two reasonable positions emerge from this debate:
+
+POSITION A — Focus on Cultivating: Teachers should be expert facilitators who design learning experiences that develop student competencies. A teacher does not need to be a practitioner of every skill they teach. They need pedagogical mastery: the ability to create structured activities, scaffold inquiry, and assess student growth. The teacher is a "guide on the side." This position argues that great curriculum design can compensate for limited personal practice.
+
+POSITION B — Focus on Possessing: Teachers must personally master these competencies. Without personal practice and lived experience, they cannot credibly guide students. You cannot teach what you have not done. The teacher is a practitioner first. This position argues that authentic modeling requires lived experience.
+
+Most debates treat these as competing priorities — a matter of where to invest limited training time and resources. But the research points to a clear conclusion: this is a false binary. These are not competing options. They are cause and effect.
+
+
+========================================
+PART 2: THE ANSWER — YOU CANNOT CULTIVATE WHAT YOU DO NOT POSSESS
+========================================
+
+The most robust evidence on how complex cognitive skills are developed — critical thinking, ethical judgment, inquiry discipline, self-regulated learning — points to one dominant mechanism: MODELING. Students learn these skills primarily by watching someone demonstrate them in action, not by hearing about them in theory.
+
+Two foundational frameworks establish this:
+
+COGNITIVE APPRENTICESHIP (Collins, Brown & Holum, 1991): This framework describes how complex cognitive skills are learned through modeling, coaching, scaffolding, and gradual release. The central insight is that the gap between novice and expert is not just "more knowledge" but a set of invisible judgment and control strategies that must be made visible through demonstration. In cognitive skills, the difference between a beginner and an expert includes hidden processes: how they monitor their own thinking, how they select strategies, how they detect and correct errors, and how they exercise judgment under uncertainty. These processes are invisible unless the expert deliberately makes them visible. If the teacher has not practiced them, the modeling function breaks down completely. You cannot make visible what you have never done.
+
+BANDURA'S SOCIAL COGNITIVE THEORY (1989): Albert Bandura's social cognitive theory shows that students internalize norms and processes by watching behavior, especially when that behavior includes attention cues, strategy selection, and error correction. Students learn "what counts as intellectual work" from what the teacher actually DOES, not from what the teacher SAYS to do. This means the hidden curriculum — the unspoken lessons about what matters, what is acceptable, and how to think — is transmitted through teacher behavior, not through lesson plans.
+
+The implication is direct: cultivating these competencies in students requires possessing them. Not because possession is valuable in itself, but because modeling is the primary mechanism through which cultivation happens.
+
+Consider the difference: A teacher who designs a brilliant activity about detecting errors in information sources but has never personally been fooled by one will deliver instructions. A teacher who has experienced how a confident, well-formatted text can turn out to be fabricated will deliver conviction. Students can tell the difference. They always can.
+
+THE FALSE BINARY RESOLVED: Possessing and cultivating are not competing priorities. They are cause and effect. The question is not "which one?" but "how much practice is enough to enable effective cultivation?"
+
+
+========================================
+PART 3: THE FIVE COMPETENCIES — THE HUMAN OPERATING SYSTEM
+========================================
+
+Five core competencies form what we call the "Human Operating System" — the coordinated set of skills that keeps learners acting as agents rather than passive recipients of ready-made content:
+
+COMPETENCY 1 — QUESTION FORMULATION AND INQUIRY DISCIPLINE: The skill of asking good questions and refining them into verification chains. In a world where AI can generate instant answers, the value lies not in the answer but in the quality of the question. This includes knowing how to move from a vague question to a precise one, how to recognize when a question is too narrow or too broad, and how to turn a single question into a chain of verification steps.
+
+COMPETENCY 2 — CRITICAL EVALUATION OF INFORMATION SOURCES: Detecting errors, bias, and fabrications, and distinguishing confidence from accuracy. This is traditional critical thinking and information literacy applied to a world where sources now include AI-generated content that can be fluent, confident, and completely wrong. This includes skills like lateral reading, source triangulation, and hallucination detection.
+
+COMPETENCY 3 — ETHICAL JUDGMENT AND RESPONSIBLE USE: Navigating integrity, ownership, fairness, and transparency. Students face genuine moral confusion today: When does using a tool cross the line from assistance to replacement? What counts as original work when you can prompt AI to write? What is your responsibility when AI output contains bias? These are not hypothetical questions — students face them daily.
+
+COMPETENCY 4 — ADAPTIVE LEARNING UNDER UNCERTAINTY: Metacognition, self-regulated learning, and willingness to update practices. In a landscape where tools and best practices evolve monthly, the ability to learn adaptively is not optional. This includes knowing how to monitor your own learning, plan your approach, evaluate the quality of outcomes, and adjust when things change.
+
+COMPETENCY 5 — KEEPING THE HUMAN ABOVE THE MACHINE: Maintaining human judgment, creativity, and relational trust as the final authority. This is the integration point — the competency that holds all the others together. It means treating AI as a tool under human oversight, keeping creativity, curiosity, empathy, and moral responsibility central, and maintaining the teacher-student relationship as the infrastructure that makes learning possible.
+
+For each of these five competencies, the possess-to-cultivate connection follows the same pattern: what teachers DO teaches more than what they SAY. The hidden curriculum is in the teacher's behavior.
+
+
+========================================
+PART 4: WHY THESE COMPETENCIES DEMAND LIVED PRACTICE
+========================================
+
+In a traditional classroom, one might argue that excellent curriculum design could compensate for limited teacher practice. Prepare great materials, design good activities, and students will develop. But two features of today's educational reality eliminate this workaround:
+
+THE SHIFT IN EPISTEMIC AUTHORITY:
+When students can get instant, fluent, confident-sounding answers from generative AI, the teacher's traditional role as "the one who knows" is structurally undermined. The teacher's legitimacy shifts from "I have the answers" to "I can show you how to question, verify, judge, and hold uncertainty." This is what researchers call becoming an EPISTEMIC MENTOR — someone who teaches how knowledge is justified, not just delivered.
+
+Research by Jose et al. (2025) on "Epistemic Authority and Generative AI in Learning Spaces" documents how new technologies disrupt knowledge authority in classrooms. AI systems act as a "surrogate knower" that produces fluent, confident-sounding text even when wrong. This structurally undermines the teacher's traditional advantage.
+
+You cannot become an epistemic mentor through curriculum design alone. Epistemic mentoring must be demonstrated live, in front of students, under conditions of genuine uncertainty. That requires practice. You have to have struggled with uncertainty yourself to guide others through it authentically.
+
+COGNITIVE OFFLOADING — THE PULL TOWARD PASSIVITY:
+Emerging research from 2023 to 2026 shows a concerning pattern: frequent reliance on AI tools correlates with decreased critical thinking, mediated by cognitive offloading — the tendency to delegate mental effort to the tool.
+
+A Microsoft Research study of 319 knowledge workers found that higher AI usage was associated with lower critical thinking engagement, particularly when the system was perceived as trustworthy. When people trust the tool, they stop checking. When they stop checking, their critical thinking muscles atrophy.
+
+Key caveat: Most of these studies are correlational, not causal. But the mechanism is psychologically plausible and the pattern is consistent across studies.
+
+Why this matters for the possess-versus-cultivate question: If even experienced adults slip into uncritical reliance on AI, a teacher who has not personally navigated that temptation will struggle to recognize it in students. Cognitive offloading is not a concept you can teach from a textbook. It is an experience you must have felt to identify in others. You need to have caught yourself accepting an AI answer without checking, felt that moment of "wait, did I just stop thinking?" — only then can you recognize and address it when your students do the same thing.
+
+
+========================================
+PART 5: HOW POSSESSING ENABLES CULTIVATING — THE EVIDENCE FOR EACH COMPETENCY
+========================================
+
+For each of the five competencies, research reveals the same pattern. The teacher who possesses the skill can model it. The modeling is what cultivates it in students. Without possession, cultivation degrades to instruction, and instruction alone is insufficient for these skills.
+
+--- COMPETENCY 1: QUESTION FORMULATION AND INQUIRY DISCIPLINE ---
+
+When answers are instantly available from AI, the value lies in THE QUESTIONS WE ASK and how we refine them. Meta-analyses on inquiry-based learning show strong positive effects, but with a critical caveat: unstructured inquiry without teacher mediation leaves students with an interesting activity but no thinking tools. The teacher must model what real inquiry looks like.
+
+Possess to Cultivate: A teacher who has practiced questioning information sources knows from experience how a vague question produces misleading confidence, how rephrasing reveals gaps, and how a question can become a verification chain. Without this lived experience, the instruction "ask good questions" stays abstract, and abstraction does not transfer.
+
+Research by Salomon and Perkins on learning transfer shows that skills do not move between contexts automatically. Transfer requires "hugging" (practicing close to real conditions), "bridging" (explicit metacognitive reflection), and demonstration of "the move." Teachers must model the entire arc: from confusion to clarity to verification. If they have never walked that arc themselves, they cannot show students what it looks like.
+
+--- COMPETENCY 2: CRITICAL EVALUATION OF INFORMATION SOURCES ---
+
+This is critical thinking and information literacy applied to a world where sources include AI-generated content. Large meta-analyses show that explicit teaching of evaluation strategies produces far stronger effects than "immersion" — simply hoping students develop critical thinking through content exposure.
+
+A meta-analysis by Abrami et al. (2015) confirms that explicit instruction outperforms immersion for critical thinking development. Students who are taught specific strategies for analysis, evaluation, and justification perform significantly better than students who are simply exposed to content and expected to develop critical thinking on their own.
+
+Research on LATERAL READING by Sam Wineburg at Stanford shows that expert fact-checkers do not "read deeply" within a source. They open multiple tabs, compare claims, and verify against external sources. This is exactly the verification protocol students need when working with any information source, including AI. This is the anti-hallucination protocol.
+
+A 2025 inoculation training study by Zarzosa and Ruvalcaba found that targeted training increases both intentions to verify and actual verification behavior. This means the problem is not deterministic — you can design verification behavior through deliberate training.
+
+Possess to Cultivate: It is nearly impossible to build "epistemic suspicion" in students without having personally encountered convincing errors. A teacher who has not experienced how a fluent, citation-laden text can turn out to be fabricated will stay at "check your sources" — a generic instruction that does not survive contact with the speed and authority of modern information sources. Building this skill in students requires someone who knows IN PRACTICE what to check first and how to spot overconfidence.
+
+--- COMPETENCY 3: ETHICAL JUDGMENT AND RESPONSIBLE USE ---
+
+Students face genuine moral confusion today: When does using a tool cross the line from assistance to replacement? What counts as original work? What is the responsibility when output contains bias?
+
+Literature on moral character education by Lapsley and Woodbury (2016) shows that what matters most is consistency, relationship, climate, and the role of meaningful adults. Moral development is not about memorizing rules. It is about practicing judgment in real situations.
+
+James Rest's Four Component Model — moral sensitivity, moral judgment, moral motivation, and moral action — reinforces this: ethical behavior requires all four components practiced together, not just understood. You need to be sensitive to ethical issues, make good judgments about them, be motivated to act ethically, and actually follow through with ethical action. Each component must be practiced, not just understood conceptually.
+
+Research on teacher authenticity shows that students judge teachers on competence, commitment, coherence, and care. When there is a gap between what a teacher preaches and what they practice — for instance, banning student AI use while quietly using it themselves — students interpret this as hypocrisy, and the entire ethical framework loses legitimacy.
+
+Research by Zheng (2021) on teacher credibility and student engagement confirms that perceived credibility directly affects student engagement. Students who perceive their teacher as credible engage more deeply with the material and adopt the norms the teacher models.
+
+Possess to Cultivate: This is the competency where possession is closest to mandatory. You cannot teach integrity by policy document alone. A teacher who has not personally wrestled with ethical boundaries — When is using AI for lesson planning different from students using AI for assignments? Where does "help" end and "replacement" begin? — will default to abstract rules that collapse when students face real dilemmas. Cultivating ethical judgment requires adults who make authentic judgment calls in gray areas, transparently, in front of students.
+
+--- COMPETENCY 4: ADAPTIVE LEARNING UNDER UNCERTAINTY ---
+
+In a landscape where tools and best practices evolve monthly, the ability to learn adaptively is not optional. Meta-analyses on self-regulated learning (SRL) show that interventions improve strategies, achievement, and motivation, but SRL is best learned when the teacher MODELS monitoring, planning, and evaluation — not just tells students to "be reflective."
+
+Donald Schon's concept of REFLECTION IN ACTION describes professional competence as navigating unique, uncertain situations in real time. Rapid technological change creates exactly this kind of uncertainty, making the "reflective practitioner" a foundational requirement rather than an aspiration.
+
+Emerging research from 2024 to 2025 documents teachers using ChatGPT for self-directed professional development. These teachers used AI as a mirror for professional reflection: generating lesson plans, then critically analyzing the output, identifying pedagogical gaps, and refining their own practice. This is exactly what adaptive learning looks like in action.
+
+Possess to Cultivate: A teacher who says "stay curious and keep learning" but has not personally navigated the discomfort of having their expertise challenged sends a contradictory message. Cultivating adaptive learning requires showing vulnerability: admitting "I do not know, let us check together," updating one's position when evidence shifts, and treating professional growth as ongoing practice rather than a one-time workshop. Students learn adaptive learning by watching their teacher adapt.
+
+--- COMPETENCY 5: KEEPING THE HUMAN ABOVE THE MACHINE ---
+
+This is the integration point: human judgment as the final authority, creativity and moral responsibility at the center, relational trust as the infrastructure that makes learning possible.
+
+A 35-year meta-analysis on teacher trust by Sun, Zhang, and Forsyth (2023) shows a consistent relationship between trust and learning outcomes. The study examined 83 studies and found that teacher trust had a moderate positive effect on student learning. In a system where epistemic authority is shifting from teacher to algorithm, trust becomes the critical infrastructure.
+
+Research on social and emotional learning (SEL) confirms that the relational dimension of teaching — care, connection, safety to fail — cannot be automated. Norms about intellectual honesty and human agency are transmitted through the teacher-student relationship, not through curriculum documents.
+
+Possess to Cultivate: This competency is inherently relational. Trust, agency, and responsibility cannot be delegated to any system or to any lesson plan. Students learn whether humans or machines hold final authority by watching what the teacher DOES, not what the teacher says. If the teacher defers to technology or avoids it entirely, the principle of human agency becomes empty rhetoric. Cultivating human agency requires a teacher who embodies it.
+
+
+========================================
+PART 6: WHAT HAPPENS WHEN TEACHERS ONLY CULTIVATE (WITHOUT POSSESSING)
+========================================
+
+When teachers understand the competencies conceptually and design activities around them, but have not practiced them personally, five predictable failures emerge:
+
+FAILURE 1 — INQUIRY BECOMES SHALLOW: Without a teacher who models real questioning, students learn to accept the first answer rather than investigate and verify. The default flow becomes "prompt AI, accept, move on" rather than "question, refine, verify, question again."
+
+FAILURE 2 — CRITICAL EVALUATION STAYS THEORETICAL: Students hear "check your sources" but never see what checking actually looks like against a fluent, authoritative text. The generic instruction does not survive contact with the speed and authority of AI-generated content.
+
+FAILURE 3 — ETHICS BECOMES POLICY, NOT PRACTICE: Abstract rules collapse when students face real dilemmas. Without a teacher who has navigated gray areas, ethical guidance rings hollow. Students face daily decisions about AI use that policy documents cannot cover.
+
+FAILURE 4 — ADAPTIVE LEARNING IS PREACHED, NOT DEMONSTRATED: Telling students to "stay curious" while the teacher avoids engaging with new tools sends a contradictory message about learning under uncertainty. The hidden curriculum says: "Do not actually adapt."
+
+FAILURE 5 — HUMAN AUTHORITY ERODES SILENTLY: Students infer from teacher behavior whether humans or machines hold final judgment. If the teacher defers to technology or avoids it, the principle of human agency becomes empty rhetoric. The implicit message is that human judgment is not really necessary.
+
+These failures follow directly from what we know about cognitive apprenticeship, transfer theory, and moral development. The failure mode of "cultivation without possession" is consistent: students receive instructions instead of demonstrations, policy instead of practice, rhetoric instead of reality.
+
+
+========================================
+PART 7: SUFFICIENT EMBODIMENT — WHAT "POSSESSION" ACTUALLY MEANS
+========================================
+
+The research does not demand that every teacher become a power user of every tool. It defines a pragmatic middle ground: enough practiced competence to authentically model all five areas. This is what we call SUFFICIENT EMBODIMENT.
+
+Sufficient embodiment means:
+
+1. PRACTICE QUESTIONING: Know from experience how questions evolve from vague to precise, and how different framings produce different results. Have personally experienced the difference between a lazy question and a sharp one.
+
+2. ENCOUNTER ERRORS PERSONALLY: Develop lived familiarity with convincing mistakes and subtle biases so that critical evaluation becomes a practiced reflex, not a theoretical concept. Have been fooled at least once, and know what that feels like.
+
+3. NAVIGATE ETHICAL GRAY AREAS: Wrestle with real dilemmas about intellectual ownership, fairness, and responsible use so that value-based discussions come from lived experience, not from a policy document.
+
+4. MODEL ADAPTIVE LEARNING: Continuously update practice through deliberate engagement, showing students what learning, failing, and adjusting looks like as an ongoing habit, not a one-time workshop.
+
+5. HOLD THE HUMAN LINE: Demonstrate through daily behavior that human judgment, relationships, and responsibility remain the final authority. Show this through action, not through announcements.
+
+The standard is not "Can the teacher use every tool brilliantly?" but "Can the teacher model the thinking, judgment, and values they are asking students to develop?" Sufficient embodiment is not mastery. It is not expertise. It is enough practice to be authentic.
+
+
+========================================
+PART 8: THE PHILOSOPHICAL FOUNDATION
+========================================
+
+Three philosophical traditions reinforce why possession and cultivation cannot be separated:
+
+JOHN DEWEY argued that learning is reconstruction of experience. Quality depends on the experience itself, not just correct declarations. A teacher who designs activities about critical evaluation without having genuine experiences of being misled produces curriculum without conviction. Dewey would say that without authentic experience, the teaching lacks the raw material from which real understanding grows.
+
+PAULO FREIRE argued that praxis means unity of reflection and action. You cannot just talk about criticality — you must practice it. Technology can turn both teachers and students into passive consumers of "ready-made text." Cultivating critical consciousness requires the teacher to struggle with that temptation first. Freire would warn that a teacher who has not wrestled with AI's seductive ease risks becoming part of the "banking model" of education — depositing information rather than cultivating critical thinking.
+
+DONALD SCHON argued that professional competence is reflection in action: navigating unique, uncertain, conflictual situations in real time. New technologies create exactly this kind of uncertainty. A teacher who has not navigated it cannot guide students through it. Schon would say that the AI era makes the "reflective practitioner" not just an aspiration but a foundational requirement.
+
+All three traditions converge on the same conclusion: authentic teaching requires authentic experience. You cannot facilitate what you have not lived.
+
+
+========================================
+PART 9: WHAT THE EVIDENCE SUPPORTS AND WHAT REMAINS OPEN
+========================================
+
+WELL ESTABLISHED (broad research base):
+- Cognitive apprenticeship and modeling are effective pedagogy for complex cognitive skills. Making thinking visible is a proven instructional strategy.
+- Explicit instruction outperforms immersion for critical thinking development. You cannot just hope students will develop critical thinking through content exposure.
+- Self-regulated learning interventions work, especially when teachers model the process of monitoring, planning, and evaluation.
+- Transfer requires deliberate design: hugging, bridging, and metacognitive reflection. Skills do not transfer automatically.
+- Moral character education works best through consistency, climate, and adult modeling. Rules alone are insufficient.
+- Teacher trust and credibility correlate with student engagement and learning outcomes. Students who trust their teacher learn more.
+
+EMERGING (2023 to 2026; more surveys and field studies than randomized controlled trials):
+- Frequent reliance on generative AI correlates with reduced critical thinking. The mechanism of cognitive offloading is psychologically plausible, though causality is unproven.
+- Targeted inoculation training can increase verification behavior. Students can be trained to check AI output, but it requires deliberate, structured intervention.
+- Teachers using AI tools for professional development show reflective growth when structured properly. When teachers practice with AI and reflect on the experience, they develop deeper understanding.
+- Teacher "trust negotiations" around new technologies show value of collective, experiential professional development. Teachers benefit from working through AI challenges together.
+
+THE KEY GAP:
+There are NO DIRECT COMPARATIVE STUDIES measuring: Do students develop these competencies better when their teachers have personally practiced them versus teachers who only understand them conceptually? The evidence is mechanism-based (cognitive apprenticeship, modeling, transfer theory, moral development) rather than direct experimental proof. This is the most valuable open research question in the field. Someone should run this study.
+
+
+========================================
+PART 10: THE BOTTOM LINE
+========================================
+
+The question was: Should teachers possess these competencies, or should they focus on cultivating them in students?
+
+The answer: THIS IS A FALSE BINARY.
+
+Research on cognitive apprenticeship, social learning, transfer theory, and moral development converges on one conclusion. Modeling is the dominant mechanism through which complex cognitive and ethical skills are transmitted. You cultivate by possessing. You model by practicing. You demonstrate by having done.
+
+The sustainable path is SUFFICIENT EMBODIMENT: teachers who have practiced enough to model the questioning, demonstrate the evaluation, navigate the ethics, embody the adaptation, and hold the human line. Not as technology experts, but as authentic epistemic mentors navigating the same uncertain landscape as their students.
+
+The choice is not between being a practitioner and being a facilitator. It is between being an AUTHENTIC FACILITATOR who practices what they facilitate, and a THEORETICAL ONE who designs activities around competencies they have not lived.
+
+The research, the philosophy, and the emerging evidence all point the same way: authenticity requires practice, and cultivation requires authenticity.
+
+
+========================================
+REFERENCES AND SOURCES
+========================================
+
+1. Collins, Brown & Holum (1991). "Cognitive Apprenticeship: Making Thinking Visible." American Educator, Winter 1991. American Federation of Teachers.
+
+2. Bandura (1989). "Human Agency in Social Cognitive Theory." American Psychologist, 44(9), 1175-1184.
+
+3. Jose, Cleetus, Joseph, Joseph, Jose & John (2025). "Epistemic Authority and Generative AI in Learning Spaces." Frontiers in Education, 10, 1647687.
+
+4. Microsoft Research (2025). "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers." Survey of 319 knowledge workers.
+
+5. Perkins & Salomon (1992). "Transfer of Learning." International Encyclopedia of Education, Second Edition. Harvard Graduate School of Education.
+
+6. Abrami et al. (2015). Meta-analysis on critical thinking instruction. Review of Educational Research, 85(2), 275-314.
+
+7. Zarzosa & Ruvalcaba (2025). "Fighting Fake News: Building Cognitive Resistance and Mental Antibodies Through a Digital Media Literacy Inoculation Intervention." Journal of Marketing Education, 47(3), 196-210.
+
+8. Lapsley & Woodbury (2016). "Moral-Character Development for Teacher Education." Action in Teacher Education, 38(3), 194-206.
+
+9. Rest & Narvaez (1994). "Moral Development in the Professions: Psychology and Applied Ethics." Routledge.
+
+10. Zheng (2021). "A Functional Review of Research on Clarity, Immediacy, and Credibility of Teachers and Their Impacts on Motivation and Engagement of Students." Frontiers in Psychology, 12, 712419.
+
+11. Sun, Zhang & Forsyth (2023). "The Effects of Teacher Trust on Student Learning and the Malleability of Teacher Trust to School Leadership: A 35-Year Meta-Analysis." Educational Administration Quarterly, 59(4), 744-810.
+
+12. Dewey, J. - Democracy and Education; Experience and Education.
+
+13. Freire, P. - Pedagogy of the Oppressed.
+
+14. Schon, D. - The Reflective Practitioner.
+
+========================================
+ABOUT THIS DOCUMENT
+========================================
+
+This document is a comprehensive source text for the website at avisalmon.github.io/AIteacher, designed by Avi Salmon. The content was generated by AI and reviewed for reliability. It is based on a comprehensive research synthesis drawing on cognitive apprenticeship theory, epistemic authority research, inquiry-based learning, metacognition and transfer research, moral development frameworks, social-emotional learning, teacher trust and credibility research, and emerging 2023 to 2026 empirical studies on generative AI and critical thinking.
+
+The document is structured to serve as a complete source for generating educational video content about the false binary in teacher education — the question of whether teachers should possess competencies or focus on cultivating them in students — and the research-based answer that these are not competing priorities but cause and effect.
