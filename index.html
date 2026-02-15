@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The False Binary in Education | Human+AI Education</title>
+    <title>The Teacher in the AI Era | Human+AI Education</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
             --border: #e2e8f0;
             --font-heading: 'Merriweather', Georgia, serif;
             --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            --container-max: 820px;
+            --container-max: 860px;
             --container-padding: 1.5rem;
         }
 
@@ -52,15 +52,6 @@
         .logo-icon { font-size: 2rem; font-weight: 700; color: var(--secondary); background-color: var(--bg-white); padding: 0.2rem 0.5rem; border-radius: 6px; }
         .logo-text { font-family: var(--font-heading); font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; }
         .tagline { font-size: 1.125rem; font-weight: 300; opacity: 0.9; letter-spacing: 0.02em; }
-
-        /* ===== Video ===== */
-        .video-section { text-align: center; padding: 2.5rem var(--container-padding) 0; }
-        .video-wrapper {
-            position: relative; width: 560px; max-width: 100%; margin: 0 auto;
-            aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.15); background-color: var(--text-dark);
-        }
-        .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
         /* ===== Article ===== */
         .article {
@@ -112,7 +103,6 @@
         }
 
         .article strong { color: var(--text-dark); }
-
         .article em { font-style: italic; }
 
         .article a {
@@ -126,15 +116,16 @@
 
         .article blockquote {
             margin: 1.5rem 0;
-            padding: 1rem 1.5rem;
+            padding: 1.25rem 1.5rem;
             background-color: var(--bg-white);
-            border-left: 4px solid var(--secondary);
+            border-left: 4px solid var(--accent);
             border-radius: 0 8px 8px 0;
-            color: var(--text-medium);
-            font-size: 1rem;
+            color: var(--text-dark);
+            font-size: 1.1rem;
+            font-weight: 500;
             box-shadow: 0 2px 8px rgba(0,0,0,0.04);
         }
-        .article blockquote p { margin-bottom: 0.5rem; font-size: 1rem; }
+        .article blockquote p { margin-bottom: 0.5rem; font-size: 1.1rem; }
         .article blockquote p:last-child { margin-bottom: 0; }
 
         .article ul, .article ol {
@@ -152,34 +143,82 @@
             margin: 2.5rem 0;
         }
 
-        /* ===== Tables ===== */
-        .table-wrap { overflow-x: auto; margin: 1.5rem 0; }
-        .article table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 0.95rem;
-            background-color: var(--bg-white);
-            border-radius: 8px;
-            overflow: hidden;
+        /* ===== Competency Grid ===== */
+        .competency-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0 2rem;
+        }
+        .competency-card {
+            background: var(--bg-white);
+            border-radius: 10px;
+            padding: 1.25rem 1.25rem 1rem;
             box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border-top: 3px solid var(--secondary);
         }
-        .article th {
-            background-color: var(--primary);
-            color: var(--bg-white);
-            padding: 0.85rem 1rem;
-            text-align: left;
+        .competency-card .comp-number {
+            font-size: 0.8rem;
             font-weight: 600;
+            color: var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-bottom: 0.35rem;
         }
-        .article td {
-            padding: 0.85rem 1rem;
-            border-bottom: 1px solid var(--border);
+        .competency-card .comp-title {
+            font-family: var(--font-heading);
+            font-size: 1.05rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        .competency-card .comp-desc {
+            font-size: 0.92rem;
             color: var(--text-medium);
-            vertical-align: top;
+            line-height: 1.6;
         }
-        .article tr:last-child td { border-bottom: none; }
-        .article tr:nth-child(even) td { background-color: var(--bg-light); }
 
-        /* ===== Closing Note ===== */
+        /* ===== Sub-Question Sections ===== */
+        .sub-question {
+            margin: 2.5rem 0;
+        }
+        .sub-question-header {
+            font-family: var(--font-heading);
+            font-size: 1.15rem;
+            color: var(--primary);
+            margin-bottom: 1.25rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid var(--accent);
+        }
+        .directions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        .direction {
+            background: var(--bg-white);
+            border-radius: 10px;
+            padding: 1.25rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .direction-a { border-top: 3px solid var(--secondary); }
+        .direction-b { border-top: 3px solid var(--accent); }
+        .direction-label {
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 0.6rem;
+        }
+        .direction-a .direction-label { color: var(--secondary); }
+        .direction-b .direction-label { color: var(--accent); }
+        .direction p {
+            font-size: 0.97rem;
+            color: var(--text-medium);
+            line-height: 1.7;
+            margin-bottom: 0;
+        }
+
+        /* ===== Closing ===== */
         .closing-note {
             margin-top: 2rem;
             font-size: 0.92rem;
@@ -197,6 +236,7 @@
             .article h1 { font-size: 1.75rem; }
             .article h2 { font-size: 1.35rem; }
             .article { padding: 1.5rem var(--container-padding) 3rem; }
+            .directions { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -212,217 +252,189 @@
         </div>
     </header>
 
-    <!-- Video -->
-    <section class="video-section">
-        <div class="video-wrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/6g1oficKhLo?si=IRG5seRD-W6Jdppy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </section>
-
     <!-- Article -->
     <article class="article">
 
         <p style="font-size: 0.8rem; font-style: italic; color: #718096; margin-bottom: 2rem;">This content was generated by AI and reviewed by Avi Salmon for reliability.</p>
 
-        <h1>The False Binary in Education</h1>
-        <p class="subtitle">Should Teachers Possess the Required Competencies, or Focus on Cultivating Them in Students?</p>
+        <!-- ==================== THE BIG QUESTION ==================== -->
 
-        <!-- The Question -->
-        <h2>The Question</h2>
-        <p>As education adapts to the age of artificial intelligence, one question keeps surfacing in faculty rooms, policy meetings, and professional development workshops around the world:</p>
+        <h1>The Teacher in the AI Era</h1>
+        <p class="subtitle">A Discussion Document</p>
+
         <blockquote>
-            <p><strong>Should lecturers and teachers themselves possess the required skills and competencies, or should their primary expertise lie in the ability to cultivate these skills among their students and pupils?</strong></p>
+            <p>Should lecturers and teachers themselves possess the required competencies, or should their primary expertise lie in the ability to cultivate these competencies in their students?</p>
         </blockquote>
-        <p>Two reasonable positions emerge:</p>
-        <ul>
-            <li><strong>Position A, Focus on Cultivating:</strong> Teachers should be expert facilitators who design learning experiences that develop student competencies. A teacher does not need to be a practitioner of every skill they teach. They need pedagogical mastery: the ability to create structured activities, scaffold inquiry, and assess student growth. The teacher is a "guide on the side."</li>
-            <li><strong>Position B, Focus on Possessing:</strong> Teachers must personally master these competencies. Without personal practice and lived experience, they cannot credibly guide students. You cannot teach what you have not done. The teacher is a practitioner first.</li>
-        </ul>
-        <p>Most debates treat these as competing priorities, a matter of where to invest limited training time and resources. <strong>But the research points to a clear conclusion: this is a false binary.</strong></p>
+
+        <p>As artificial intelligence changes how we learn, teach, and work, a real question opens up about what we expect from educators. This document does not try to settle that question. It lays out the competencies at stake, the tensions involved, and the arguments on each side, as a basis for an informed discussion.</p>
 
         <hr>
 
-        <!-- The Answer -->
-        <h2>The Answer: You Cannot Cultivate What You Do Not Possess</h2>
-        <p>The most robust evidence on how complex cognitive skills are developed (critical thinking, ethical judgment, inquiry discipline, self-regulated learning) points to one dominant mechanism: <strong>modeling.</strong> Students learn these skills primarily by watching someone demonstrate them in action, not by hearing about them in theory.</p>
-        <p>Two foundational frameworks establish this:</p>
-        <p><strong><a href="https://www.aft.org/ae/winter1991/collins_brown_holum" target="_blank">Cognitive apprenticeship</a></strong> (Collins, Brown &amp; Holum, 1991) describes how complex cognitive skills are learned through modeling, coaching, scaffolding, and gradual release. The central insight is that the gap between novice and expert is not just "more knowledge" but a set of invisible judgment and control strategies that must be made visible through demonstration. If the teacher has not practiced them, the modeling function breaks down.</p>
-        <p><strong><a href="https://doi.org/10.1037/0003-066X.44.9.1175" target="_blank">Bandura's social cognitive theory</a></strong> (1989) shows that students internalize norms and processes by watching behavior, especially when that behavior includes attention cues, strategy selection, and error correction. Students learn "what counts as intellectual work" from what the teacher actually <em>does</em>, not from what the teacher <em>says</em> to do.</p>
-        <p>The implication is direct: <strong>cultivating these competencies in students requires possessing them.</strong> Not because possession is valuable in itself, but because modeling is the primary mechanism through which cultivation happens. A teacher who designs a brilliant activity about detecting errors in information sources but has never personally been fooled by one will deliver instructions. A teacher who has experienced how a confident, well-formatted text can turn out to be fabricated will deliver conviction. Students can tell the difference.</p>
-        <blockquote>
-            <p><strong>The false binary resolved:</strong> Possessing and cultivating are not competing priorities. They are cause and effect. The question is not "which one?" but "how much practice is enough to enable effective cultivation?"</p>
-        </blockquote>
+        <!-- ==================== THE SEVEN COMPETENCIES ==================== -->
 
-        <hr>
+        <h2>The Seven Competencies</h2>
+        <p>These are human competencies identified as critical in an AI-rich world. They are the skills, dispositions, and judgment capacities most likely to be affected by AI, and most important to protect and develop.</p>
 
-        <!-- The Competencies -->
-        <h2>The Competencies in Question</h2>
-        <p>Five core competencies form what we call the "Human Operating System," the coordinated set of skills that keeps learners acting as agents rather than passive recipients of ready-made content:</p>
-        <ol>
-            <li><strong>Question Formulation and Inquiry Discipline:</strong> the skill of asking good questions and refining them into verification chains</li>
-            <li><strong>Critical Evaluation of Information Sources:</strong> detecting errors, bias, and fabrications, and distinguishing confidence from accuracy</li>
-            <li><strong>Ethical Judgment and Responsible Use:</strong> navigating integrity, ownership, fairness, and transparency</li>
-            <li><strong>Adaptive Learning Under Uncertainty:</strong> metacognition, self-regulated learning, and willingness to update practices</li>
-            <li><strong>Keeping the Human Above the Machine:</strong> maintaining human judgment, creativity, and relational trust as the final authority</li>
-        </ol>
-        <p>For each of these, the possess-to-cultivate connection follows the same pattern: what teachers <em>do</em> teaches more than what they <em>say</em>. The hidden curriculum is in the teacher's behavior.</p>
-
-        <hr>
-
-        <!-- Why This Is Inescapable -->
-        <h2>Why These Competencies Demand Lived Practice</h2>
-        <p>In a traditional classroom, one might argue that excellent curriculum design could compensate for limited teacher practice. Prepare great materials, design good activities, and students will develop. But two features of today's educational reality eliminate this workaround:</p>
-
-        <h3>The Shift in Epistemic Authority</h3>
-        <p>When students can get instant, fluent, confident-sounding answers from generative AI, the teacher's traditional role as "the one who knows" is structurally undermined. The teacher's legitimacy shifts: <strong>from "I have the answers" to "I can show you how to question, verify, judge, and hold uncertainty."</strong> This is what researchers call becoming an <em>epistemic mentor</em>.</p>
-        <blockquote>
-            <p>See: <a href="https://doi.org/10.3389/feduc.2025.1647687" target="_blank">Epistemic Authority and Generative AI in Learning Spaces</a> (Jose et al., 2025), on how new technologies disrupt knowledge authority in classrooms.</p>
-        </blockquote>
-        <p>You cannot become an epistemic mentor through curriculum design alone. Epistemic mentoring must be demonstrated live, in front of students, under conditions of genuine uncertainty. That requires practice.</p>
-
-        <h3>Cognitive Offloading: The Pull Toward Passivity</h3>
-        <p>Emerging research (2023 to 2026) shows a concerning pattern: frequent reliance on AI tools correlates with decreased critical thinking, mediated by <em>cognitive offloading</em>, the tendency to delegate mental effort to the tool. A <a href="https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking/" target="_blank">Microsoft Research study</a> of 319 knowledge workers found that higher usage was associated with lower critical thinking engagement, particularly when the system was perceived as trustworthy.</p>
-        <blockquote>
-            <p><strong>Key caveat:</strong> Most of these studies are correlational, not causal. But the mechanism is psychologically plausible and the pattern is consistent across studies.</p>
-        </blockquote>
-        <p><strong>Why this matters for the possess-vs-cultivate question:</strong> If even experienced adults slip into uncritical reliance, a teacher who has not personally navigated that temptation will struggle to recognize it in students. Cognitive offloading is not a concept you can teach from a textbook. It is an experience you must have felt to identify in others. This is where possession of the skill becomes inseparable from the ability to cultivate it.</p>
-
-        <hr>
-
-        <!-- How Possessing Enables Cultivating -->
-        <h2>How Possessing Enables Cultivating: The Evidence for Each Competency</h2>
-        <p>For each of the five competencies, research reveals the same pattern. The teacher who possesses the skill can model it. The modeling is what cultivates it in students. Without possession, cultivation degrades to instruction, and instruction alone is insufficient for these skills.</p>
-
-        <h3>1. Question Formulation and Inquiry Discipline</h3>
-        <p>When answers are instantly available, the value lies in <strong>the questions we ask</strong> and how we refine them. Meta-analyses on inquiry-based learning show strong positive effects, but with a critical caveat: <strong>unstructured inquiry without teacher mediation leaves students with an interesting activity but no thinking tools.</strong> The teacher must model what real inquiry looks like.</p>
-        <p><strong>Possess to Cultivate:</strong> A teacher who has practiced questioning information sources knows from experience how a vague question produces misleading confidence, how rephrasing reveals gaps, and how a question can become a verification chain. Without this lived experience, the instruction "ask good questions" stays abstract, and abstraction does not transfer.</p>
-        <blockquote>
-            <p><a href="https://web.archive.org/web/20081203104029/http://learnweb.harvard.edu/alps/thinking/docs/traencyn.htm" target="_blank">Salomon &amp; Perkins</a> on learning transfer: skills do not move between contexts automatically. Transfer requires "hugging" (practicing close to real conditions), "bridging" (explicit metacognitive reflection), and demonstration of "the move." Teachers must model the entire arc: from confusion to clarity to verification.</p>
-        </blockquote>
-
-        <h3>2. Critical Evaluation of Information Sources</h3>
-        <p>This is critical thinking and information literacy applied to a world where sources include AI-generated content. Large meta-analyses show that explicit teaching of evaluation strategies produces far stronger effects than "immersion," that is, simply hoping students develop critical thinking through content exposure.</p>
-        <blockquote>
-            <p>See: <a href="https://doi.org/10.3102/0034654314551063" target="_blank">Abrami et al., 2015</a>, a meta-analysis showing explicit instruction outperforms immersion for critical thinking development.</p>
-        </blockquote>
-        <p>Research on <em>lateral reading</em> (Wineburg at Stanford) shows that expert fact-checkers do not "read deeply" within a source. They open multiple tabs, compare claims, and verify against external sources. This is exactly the verification protocol students need when working with any information source, including AI. A <a href="https://doi.org/10.1177/02734753251319559" target="_blank">2025 inoculation training study</a> (Zarzosa &amp; Ruvalcaba) found that targeted training increases both intentions to verify and actual verification behavior.</p>
-        <p><strong>Possess to Cultivate:</strong> It is nearly impossible to build "epistemic suspicion" in students without having personally encountered convincing errors. A teacher who has not experienced how a fluent, citation-laden text can turn out to be fabricated will stay at "check your sources," a generic instruction that does not survive contact with the speed and authority of modern information sources. Building this skill in students requires someone who knows <em>in practice</em> what to check first and how to spot overconfidence.</p>
-
-        <h3>3. Ethical Judgment and Responsible Use</h3>
-        <p>Students face genuine moral confusion today: When does using a tool cross the line from assistance to replacement? What counts as original work? What is the responsibility when output contains bias?</p>
-        <p>Literature on <a href="https://doi.org/10.1080/01626620.2016.1194785" target="_blank">moral character education</a> (Lapsley &amp; Woodbury, 2016) shows that what matters most is <strong>consistency, relationship, climate, and the role of meaningful adults.</strong> James Rest's <a href="https://doi.org/10.4324/9781410601162" target="_blank">Four Component Model</a> (moral sensitivity, judgment, motivation, action) reinforces this: ethical behavior requires all four components practiced together, not just understood.</p>
-        <p>Research on teacher authenticity shows that students judge teachers on <strong>competence, commitment, coherence, and care.</strong> When there is a gap between what a teacher preaches and what they practice, students interpret this as hypocrisy, and the entire ethical framework loses legitimacy.</p>
-        <blockquote>
-            <p>See: <a href="https://doi.org/10.3389/fpsyg.2021.712419" target="_blank">Teacher credibility and student engagement</a> (Zheng, 2021), on how perceived credibility affects student engagement.</p>
-        </blockquote>
-        <p><strong>Possess to Cultivate:</strong> This is the competency where possession is closest to mandatory. You cannot teach integrity by policy document alone. A teacher who has not personally wrestled with ethical boundaries will default to abstract rules that collapse when students face real dilemmas. Cultivating ethical judgment requires adults who make authentic judgment calls in gray areas, transparently, in front of students.</p>
-
-        <h3>4. Adaptive Learning Under Uncertainty</h3>
-        <p>In a landscape where tools and best practices evolve monthly, the ability to learn adaptively is not optional. Meta-analyses on self-regulated learning (SRL) show that interventions improve strategies, achievement, and motivation, but SRL is best learned when the teacher <strong>models</strong> monitoring, planning, and evaluation, not just tells students to "be reflective."</p>
-        <p>Donald Schon's concept of <em>reflection in action</em> describes professional competence as navigating unique, uncertain situations in real time. Rapid technological change creates exactly this kind of uncertainty, making the "reflective practitioner" a foundational requirement rather than an aspiration.</p>
-        <p><strong>Possess to Cultivate:</strong> A teacher who says "stay curious and keep learning" but has not personally navigated the discomfort of having their expertise challenged sends a contradictory message. Cultivating adaptive learning requires showing vulnerability: admitting "I do not know, let's check together," updating one's position when evidence shifts, and treating professional growth as ongoing practice rather than a one-time workshop.</p>
-
-        <h3>5. Keeping the Human Above the Machine</h3>
-        <p>This is the integration point: human judgment as the final authority, creativity and moral responsibility at the center, relational trust as the infrastructure that makes learning possible.</p>
-        <p>A <a href="https://doi.org/10.1177/0013161X231183662" target="_blank">35-year meta-analysis on teacher trust</a> (Sun, Zhang &amp; Forsyth, 2023) shows a consistent relationship between trust and learning outcomes. Research on social and emotional learning (SEL) confirms that the relational dimension of teaching (care, connection, safety to fail) cannot be automated. Norms about intellectual honesty and human agency are transmitted through the teacher-student relationship, not through curriculum documents.</p>
-        <p><strong>Possess to Cultivate:</strong> This competency is inherently relational. Trust, agency, and responsibility cannot be delegated to any system or to any lesson plan. Students learn whether humans or machines hold final authority by watching what the teacher <em>does</em>, not what the teacher says. Cultivating human agency requires a teacher who embodies it.</p>
-
-        <hr>
-
-        <!-- What Happens Without Possession -->
-        <h2>What Happens When Teachers Only Cultivate</h2>
-        <p>When teachers understand the competencies conceptually and design activities around them, but have not practiced them personally, five predictable failures emerge:</p>
-        <ol>
-            <li><strong>Inquiry becomes shallow:</strong> Without a teacher who models real questioning, students learn to accept the first answer rather than investigate and verify.</li>
-            <li><strong>Critical evaluation stays theoretical:</strong> Students hear "check your sources" but never see what checking actually looks like against a fluent, authoritative text.</li>
-            <li><strong>Ethics becomes policy, not practice:</strong> Abstract rules collapse when students face real dilemmas. Without a teacher who has navigated gray areas, ethical guidance rings hollow.</li>
-            <li><strong>Adaptive learning is preached, not demonstrated:</strong> Telling students to "stay curious" while the teacher avoids engaging with new tools sends a contradictory message about learning under uncertainty.</li>
-            <li><strong>Human authority erodes silently:</strong> Students infer from teacher behavior whether humans or machines hold final judgment. If the teacher defers to technology or avoids it, the principle of human agency becomes empty rhetoric.</li>
-        </ol>
-        <p>These failures follow directly from what we know about cognitive apprenticeship, transfer theory, and moral development. The failure mode of "cultivation without possession" is consistent: <strong>students receive instructions instead of demonstrations, policy instead of practice, rhetoric instead of reality.</strong></p>
-
-        <hr>
-
-        <!-- What Possession Actually Means -->
-        <h2>What "Possession" Actually Means: Sufficient Embodiment</h2>
-        <p>The research does not demand that every teacher become a power user of every tool. It defines a pragmatic middle ground: <strong>enough practiced competence to authentically model all five areas.</strong></p>
-        <ol>
-            <li><strong>Practice questioning:</strong> know from experience how questions evolve from vague to precise, and how different framings produce different results</li>
-            <li><strong>Encounter errors personally:</strong> develop lived familiarity with convincing mistakes and subtle biases so that critical evaluation becomes a practiced reflex</li>
-            <li><strong>Navigate ethical gray areas:</strong> wrestle with real dilemmas about intellectual ownership, fairness, and responsible use so that value-based discussions come from lived experience</li>
-            <li><strong>Model adaptive learning:</strong> continuously update practice through deliberate engagement, showing students what learning, failing, and adjusting looks like as an ongoing habit</li>
-            <li><strong>Hold the human line:</strong> demonstrate through daily behavior that human judgment, relationships, and responsibility remain the final authority</li>
-        </ol>
-        <p>We call this <strong>"sufficient embodiment"</strong>: not mastery, not expertise, but enough practice to be authentic. The standard is not "Can the teacher use every tool brilliantly?" but <strong>"Can the teacher model the thinking, judgment, and values they are asking students to develop?"</strong></p>
-
-        <hr>
-
-        <!-- The Philosophical Foundation -->
-        <h2>The Philosophical Foundation</h2>
-        <p>Three philosophical traditions reinforce why possession and cultivation cannot be separated:</p>
-        <div class="table-wrap">
-            <table>
-                <thead>
-                    <tr><th>Thinker</th><th>Key Insight</th><th>Why "Cultivate Without Possessing" Fails</th></tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>John Dewey</strong></td>
-                        <td>Learning is reconstruction of experience. Quality depends on the experience itself, not just correct declarations</td>
-                        <td>A teacher who designs activities about critical evaluation without having genuine experiences of being misled produces curriculum without conviction</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Paulo Freire</strong></td>
-                        <td>Praxis means unity of reflection and action. You cannot just talk about criticality</td>
-                        <td>Technology can turn both teachers and students into passive consumers of "ready-made text." Cultivating critical consciousness requires the teacher to struggle with that temptation first</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Donald Schon</strong></td>
-                        <td>Professional competence is reflection in action: navigating unique, uncertain, conflictual situations in real time</td>
-                        <td>New technologies create exactly this kind of uncertainty. A teacher who has not navigated it cannot guide students through it</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="competency-grid">
+            <div class="competency-card">
+                <div class="comp-number">1</div>
+                <div class="comp-title">Question Formulation &amp; Inquiry Discipline</div>
+                <div class="comp-desc">The skill of asking good questions, refining them iteratively, and using questions as tools for investigation rather than expecting immediate answers.</div>
+            </div>
+            <div class="competency-card">
+                <div class="comp-number">2</div>
+                <div class="comp-title">Critical Evaluation of Information Sources</div>
+                <div class="comp-desc">Detecting errors, bias, and fabrications. Distinguishing confidence from accuracy. Verifying claims against external sources rather than accepting fluent text at face value.</div>
+            </div>
+            <div class="competency-card">
+                <div class="comp-number">3</div>
+                <div class="comp-title">Ethical Judgment &amp; Responsible Use</div>
+                <div class="comp-desc">Navigating questions of integrity, intellectual ownership, fairness, transparency, and accountability when working with powerful tools.</div>
+            </div>
+            <div class="competency-card">
+                <div class="comp-number">4</div>
+                <div class="comp-title">Adaptive Learning Under Uncertainty</div>
+                <div class="comp-desc">Metacognition, self-regulated learning, and the willingness to update one's practices and beliefs when the landscape shifts.</div>
+            </div>
+            <div class="competency-card">
+                <div class="comp-number">5</div>
+                <div class="comp-title">Collaborative Teamwork</div>
+                <div class="comp-desc">Working effectively with others: co-constructing knowledge, negotiating perspectives, distributing tasks, and navigating group dynamics in environments where AI changes what each person contributes.</div>
+            </div>
+            <div class="competency-card">
+                <div class="comp-number">6</div>
+                <div class="comp-title">Complex Problem Solving</div>
+                <div class="comp-desc">Breaking down multifaceted, poorly defined problems. Integrating knowledge across domains, weighing trade-offs, and designing solutions under real-world constraints, including knowing when and how to use AI as part of the process.</div>
+            </div>
+            <div class="competency-card">
+                <div class="comp-number">7</div>
+                <div class="comp-title">Keeping the Human Above the Machine</div>
+                <div class="comp-desc">Maintaining human judgment, creativity, relational trust, and moral responsibility as the final authority over any tool or system.</div>
+            </div>
         </div>
 
         <hr>
 
-        <!-- The Evidence Landscape -->
-        <h2>What the Evidence Supports, and What Remains Open</h2>
+        <!-- ==================== SUB-QUESTIONS ==================== -->
 
-        <h3>Well Established (broad research base):</h3>
-        <ul>
-            <li>Cognitive apprenticeship and modeling as effective pedagogy for complex cognitive skills</li>
-            <li>Explicit instruction outperforms immersion for critical thinking development</li>
-            <li>Self-regulated learning interventions work, especially when teachers model the process</li>
-            <li>Transfer requires deliberate design: hugging, bridging, and metacognitive reflection</li>
-            <li>Moral character education works best through consistency, climate, and adult modeling</li>
-            <li>Teacher trust and credibility correlate with student engagement and learning outcomes</li>
-        </ul>
+        <h2>Questions for Discussion</h2>
+        <p>The central question leads to a set of more specific tensions. For each one, two directions of argument are presented.</p>
 
-        <h3>Emerging (2023 to 2026; more surveys and field studies than RCTs):</h3>
-        <ul>
-            <li>Frequent reliance on generative AI correlates with reduced critical thinking (causality unproven)</li>
-            <li>Targeted inoculation training can increase verification behavior</li>
-            <li>Teachers using AI tools for professional development show reflective growth when structured properly</li>
-            <li>Teacher "trust negotiations" around new technologies show value of collective, experiential professional development</li>
-        </ul>
+        <!-- Sub-Question 1 -->
+        <div class="sub-question">
+            <h3 class="sub-question-header">1. What counts as "sufficient" mastery?</h3>
+            <p>If teachers need to possess these competencies, how much is enough? And who gets to define that threshold?</p>
+            <div class="directions">
+                <div class="direction direction-a">
+                    <div class="direction-label">Direction A</div>
+                    <p>A minimal, practical level of personal experience is enough. Teachers do not need to be experts. They need just enough lived practice to speak from experience rather than theory. Setting the bar too high risks creating unrealistic standards that discourage educators rather than help them.</p>
+                </div>
+                <div class="direction direction-b">
+                    <div class="direction-label">Direction B</div>
+                    <p>"Minimum" is dangerously vague. Without clear and substantive benchmarks, "sufficient" becomes whatever is convenient. If students face real complexity, their teachers need more than surface familiarity. Superficial mastery leads to superficial modeling.</p>
+                </div>
+            </div>
+        </div>
 
-        <h3>The Key Gap</h3>
-        <p>There are <strong>no direct comparative studies</strong> measuring: <em>Do students develop these competencies better when their teachers have personally practiced them versus teachers who only understand them conceptually?</em> The evidence is mechanism-based (cognitive apprenticeship, modeling, transfer theory, moral development) rather than direct experimental proof. This is the most valuable open research question in the field.</p>
+        <!-- Sub-Question 2 -->
+        <div class="sub-question">
+            <h3 class="sub-question-header">2. Can pedagogical expertise substitute for personal practice?</h3>
+            <p>Can a teacher who deeply understands a competency but has not practiced it still cultivate it effectively in students?</p>
+            <div class="directions">
+                <div class="direction direction-a">
+                    <div class="direction-label">Direction A</div>
+                    <p>Great teachers are primarily designers of learning experiences. A skilled pedagogue can structure activities, scaffold inquiry, and guide student growth without being a practitioner of every skill they teach. Teaching is its own expertise.</p>
+                </div>
+                <div class="direction direction-b">
+                    <div class="direction-label">Direction B</div>
+                    <p>Complex cognitive skills like questioning, ethical judgment, and critical evaluation are learned primarily through modeling. Students learn by watching the teacher think, not just by following instructions. Without personal practice, the teacher delivers rules instead of demonstrations. Students can tell the difference.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sub-Question 3 -->
+        <div class="sub-question">
+            <h3 class="sub-question-header">3. Do all seven competencies require the same depth of teacher experience?</h3>
+            <p>Or are some competencies more dependent on lived practice than others?</p>
+            <div class="directions">
+                <div class="direction direction-a">
+                    <div class="direction-label">Direction A</div>
+                    <p>Some competencies are more procedural and can be taught effectively through well-designed activities. For example, verification strategies for evaluating sources, or structured frameworks for complex problem solving. Not every competency demands deep personal experience.</p>
+                </div>
+                <div class="direction direction-b">
+                    <div class="direction-label">Direction B</div>
+                    <p>The competencies that matter most (ethical judgment, adaptive learning, maintaining human authority) are inherently experiential. They involve navigating uncertainty, ambiguity, and discomfort. These cannot be reduced to procedures. They require a teacher who has genuinely grappled with them.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sub-Question 4 -->
+        <div class="sub-question">
+            <h3 class="sub-question-header">4. How should limited professional development time be allocated?</h3>
+            <p>Training time and resources are limited. Should they go toward building teachers' own competencies, or toward their ability to teach them?</p>
+            <div class="directions">
+                <div class="direction direction-a">
+                    <div class="direction-label">Direction A</div>
+                    <p>Professional development should focus on pedagogical strategies: how to design activities, assess student growth, and facilitate discussion around these competencies. Teaching skills are transferable. Personal mastery of every competency is not realistic at scale.</p>
+                </div>
+                <div class="direction direction-b">
+                    <div class="direction-label">Direction B</div>
+                    <p>Investing in teachers' personal competency development is not a luxury. It is a prerequisite. Professional development that skips personal practice produces teachers who can explain competencies but cannot demonstrate them. The investment in possession is what makes cultivation possible.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sub-Question 5 -->
+        <div class="sub-question">
+            <h3 class="sub-question-header">5. What is the role of teacher vulnerability and "not-knowing"?</h3>
+            <p>Should teachers model uncertainty and learning in real time, or do students need confident authority?</p>
+            <div class="directions">
+                <div class="direction direction-a">
+                    <div class="direction-label">Direction A</div>
+                    <p>Students need stability and confidence. A teacher who frequently exposes uncertainty risks undermining their authority and creating anxiety. Especially in younger age groups, learners need a secure knowledge figure, not a fellow traveler.</p>
+                </div>
+                <div class="direction direction-b">
+                    <div class="direction-label">Direction B</div>
+                    <p>In a world where confident-sounding answers are instantly available from AI, the most valuable thing a teacher can model is honest uncertainty. Saying "I don't know, let's find out together" teaches students that not-knowing is the starting point of inquiry, not a failure.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sub-Question 6 -->
+        <div class="sub-question">
+            <h3 class="sub-question-header">6. How would we assess whether a teacher has "enough" competency?</h3>
+            <p>If possession matters, what does evaluation look like for something this personal and contextual?</p>
+            <div class="directions">
+                <div class="direction direction-a">
+                    <div class="direction-label">Direction A</div>
+                    <p>Competency can be assessed through structured rubrics, portfolio evidence, peer observation, and reflective practice documentation. Assessment does not require perfection. It requires showing that the teacher has engaged meaningfully with each competency area.</p>
+                </div>
+                <div class="direction direction-b">
+                    <div class="direction-label">Direction B</div>
+                    <p>These competencies are deeply contextual and relational. Trying to assess them through checklists or rubrics risks reducing them to performative compliance. The best indicator is not a score but whether a teacher's students actually develop these competencies. That is hard to measure and slow to appear.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sub-Question 7 -->
+        <div class="sub-question">
+            <h3 class="sub-question-header">7. Does the answer change across contexts?</h3>
+            <p>Is the possess-vs-cultivate balance different for primary school versus university, STEM versus humanities, or across cultures and resource levels?</p>
+            <div class="directions">
+                <div class="direction direction-a">
+                    <div class="direction-label">Direction A</div>
+                    <p>Context matters enormously. Young children need teachers who model social-emotional competencies above all. University lecturers face students who already use AI independently. Resource-poor environments must prioritize differently than well-funded systems. One answer cannot fit all.</p>
+                </div>
+                <div class="direction direction-b">
+                    <div class="direction-label">Direction B</div>
+                    <p>The core principle holds across contexts: you cannot cultivate what you have not practiced. The specific depth and emphasis may vary, but the fundamental relationship between teacher possession and student development is universal. Adjusting for context is reasonable; abandoning the principle is not.</p>
+                </div>
+            </div>
+        </div>
 
         <hr>
 
-        <!-- The Bottom Line -->
-        <h2>The Bottom Line</h2>
-        <p>The question was: <strong>Should teachers possess these competencies, or should they focus on cultivating them in students?</strong></p>
-        <p>The answer: <strong>this is a false binary.</strong> Research on cognitive apprenticeship, social learning, transfer theory, and moral development converges on one conclusion. Modeling is the dominant mechanism through which complex cognitive and ethical skills are transmitted. You cultivate by possessing. You model by practicing. You demonstrate by having done.</p>
-        <p>The sustainable path is <strong>sufficient embodiment</strong>: teachers who have practiced enough to model the questioning, demonstrate the evaluation, navigate the ethics, embody the adaptation, and hold the human line. Not as technology experts, but as authentic epistemic mentors navigating the same uncertain landscape as their students.</p>
-        <p>The choice is not between being a practitioner and being a facilitator. It is between being an <strong>authentic facilitator</strong> who practices what they facilitate, and a <strong>theoretical one</strong> who designs activities around competencies they have not lived. The research, the philosophy, and the emerging evidence all point the same way: <strong>authenticity requires practice, and cultivation requires authenticity.</strong></p>
-
-        <hr>
-
-        <p class="closing-note">Based on a comprehensive research synthesis drawing on cognitive apprenticeship theory, epistemic authority research, inquiry-based learning, metacognition and transfer research, moral development frameworks, social-emotional learning, teacher trust and credibility research, and emerging 2023 to 2026 empirical studies on generative AI and critical thinking.</p>
+        <p class="closing-note">This document is a starting point for discussion, not a position paper. The questions above draw on research in cognitive apprenticeship, epistemic authority, moral development, transfer theory, and emerging studies on AI and education. The goal is to support an informed conversation about what we expect from teachers in a rapidly changing world.</p>
 
     </article>
 
