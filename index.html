@@ -218,6 +218,54 @@
             margin-bottom: 0;
         }
 
+        /* ===== Resources Section ===== */
+        .resources-section {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--border);
+        }
+        .resources-section > h2 {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        .resources-intro {
+            font-size: 0.93rem;
+            color: var(--text-medium);
+            margin-bottom: 1.5rem;
+        }
+        .resource-group-title {
+            font-family: var(--font-heading);
+            font-size: 1.05rem;
+            color: var(--primary);
+            margin: 1.75rem 0 0.75rem;
+            padding-left: 0.75rem;
+            border-left: 3px solid var(--accent);
+        }
+        .resource-list {
+            list-style: none;
+            padding: 0;
+        }
+        .resource-list li {
+            font-size: 0.88rem;
+            color: var(--text-medium);
+            line-height: 1.6;
+            padding: 0.4rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .resource-list li:last-child {
+            border-bottom: none;
+        }
+        .resource-list a {
+            color: var(--primary-light);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .resource-list a:hover {
+            text-decoration: underline;
+        }
+
         /* ===== Closing ===== */
         .closing-note {
             margin-top: 2rem;
@@ -427,6 +475,52 @@
         <hr>
 
         <p class="closing-note">This document is a starting point for discussion, not a position paper. The questions above draw on research in cognitive apprenticeship, epistemic authority, moral development, transfer theory, and emerging studies on AI and education. The goal is to support an informed conversation about what we expect from teachers in a rapidly changing world.</p>
+
+        <!-- Resources Section -->
+        <section class="resources-section">
+            <h2>References &amp; Resources</h2>
+            <p class="resources-intro">The following sources inform the discussion above. Each entry links to the original publication or a stable archive.</p>
+
+            <h3 class="resource-group-title">Foundational Research</h3>
+            <ul class="resource-list">
+                <li>Cognitive Apprenticeship (Collins, Brown &amp; Holum, 1991) &ndash; <a href="https://www.aft.org/ae/winter1991/collins_brown_holum" target="_blank" rel="noopener">American Educator</a> &ndash; Learning through expert modeling; making thinking processes visible</li>
+                <li>Self-Efficacy (Bandura, 1997) &ndash; <a href="https://doi.org/10.1017/S0813483900008491" target="_blank" rel="noopener">Cambridge University Press</a> &ndash; How belief in one&rsquo;s capabilities shapes performance and agency</li>
+                <li>Transfer of Learning (Perkins &amp; Salomon, 1992) &ndash; <a href="https://web.archive.org/web/20170710033607/http://learnweb.harvard.edu/alps/thinking/docs/traencyn.htm" target="_blank" rel="noopener">Harvard / Web Archive</a> &ndash; How knowledge and skills transfer across contexts and domains</li>
+                <li>Moral Development in the Professions (Rest &amp; Narvaez, 1994) &ndash; <a href="https://doi.org/10.4324/9780203581810" target="_blank" rel="noopener">Psychology Press</a> &ndash; Framework for understanding moral reasoning and ethical judgment</li>
+                <li>Moral Character Development (Lapsley &amp; Woodbury, 2016) &ndash; <a href="https://doi.org/10.1002/9781118963418.childpsy114" target="_blank" rel="noopener">Wiley</a> &ndash; Social-cognitive approaches to character and moral education</li>
+                <li>Teacher Clarity, Immediacy &amp; Credibility (Zheng, 2021) &ndash; <a href="https://doi.org/10.3389/fpsyg.2021.712419" target="_blank" rel="noopener">Frontiers in Psychology</a> &ndash; How teacher communication behaviors affect student learning outcomes</li>
+            </ul>
+
+            <h3 class="resource-group-title">AI &amp; Education Research</h3>
+            <ul class="resource-list">
+                <li>Generative AI and Critical Thinking (Microsoft Research, 2025) &ndash; <a href="https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking/" target="_blank" rel="noopener">Microsoft Research</a> &ndash; Evidence that AI use may reduce critical thinking effort</li>
+                <li>AI in Teacher Education (Jose et al., 2025) &ndash; <a href="https://doi.org/10.1080/02619768.2025.2467091" target="_blank" rel="noopener">European Journal of Teacher Education</a> &ndash; Preparing teachers for AI-era challenges in education</li>
+                <li>ChatGPT Meta-Analysis (Wang &amp; Fan, 2025) &ndash; <a href="https://www.nature.com/articles/s41599-025-04787-y" target="_blank" rel="noopener">Nature Humanities &amp; Social Sciences</a> &ndash; ChatGPT boosts performance when scaffolded; risks shallow learning otherwise</li>
+                <li>GenAI &amp; Critical Thinking in Higher Education (Nasr et al., 2025) &ndash; <a href="https://www.mdpi.com/2227-7102/15/9/1198" target="_blank" rel="noopener">Education Sciences (MDPI)</a> &ndash; Passive AI use hinders critical thinking; guided use enhances it</li>
+                <li>Critical Thinking Instruction (Abrami et al., 2015) &ndash; <a href="https://doi.org/10.1016/j.edurev.2014.11.004" target="_blank" rel="noopener">Educational Research Review</a> &ndash; Meta-analysis on effective strategies for teaching critical thinking</li>
+                <li>Inoculation-Based Approach to AI Misinformation (Zarzosa et al., 2025) &ndash; <a href="https://doi.org/10.1080/10508406.2025.2452592" target="_blank" rel="noopener">Journal of the Learning Sciences</a> &ndash; Building student resilience against AI-generated misinformation</li>
+            </ul>
+
+            <h3 class="resource-group-title">Frameworks &amp; Standards</h3>
+            <ul class="resource-list">
+                <li>UNESCO AI Competency Framework for Teachers (2024) &ndash; <a href="https://www.unesco.org/en/articles/ai-competency-framework-teachers" target="_blank" rel="noopener">UNESCO</a> &ndash; 15 competencies across 5 dimensions for teaching with and about AI</li>
+                <li>UNESCO AI Competency Frameworks Overview &ndash; <a href="https://www.unesco.org/en/articles/what-you-need-know-about-unescos-new-ai-competency-frameworks-students-and-teachers" target="_blank" rel="noopener">UNESCO</a> &ndash; Overview of frameworks for both students and teachers</li>
+                <li>OECD AI Literacy Framework &ndash; <a href="https://oecdedutoday.com/new-ai-literacy-framework-to-equip-youth-in-an-age-of-ai/" target="_blank" rel="noopener">OECD Education Today</a> &ndash; Framework for youth AI literacy and responsible use</li>
+                <li>What Should Teachers Teach in an AI Future? &ndash; <a href="https://www.oecd.org/en/publications/what-should-teachers-teach-and-students-learn-in-a-future-of-powerful-ai_ca56c7d6-en.html" target="_blank" rel="noopener">OECD Publishing</a> &ndash; Rethinking curriculum and pedagogy for powerful AI</li>
+                <li>Teachers&rsquo; Professional Learning for the AI Era &ndash; <a href="https://www.oecd.org/content/dam/oecd/en/about/projects/edu/education-2040/publications/section_5a.pdf" target="_blank" rel="noopener">OECD Education 2040 (PDF)</a> &ndash; Skills and knowledge teachers need for AI integration</li>
+                <li>ISTE Standards for Educators &ndash; <a href="https://iste.org/standards/educators" target="_blank" rel="noopener">ISTE</a> &ndash; Technology competency standards for teachers</li>
+                <li>ISTE Standards for Students &ndash; <a href="https://iste.org/standards/students" target="_blank" rel="noopener">ISTE</a> &ndash; Technology and digital citizenship standards for learners</li>
+            </ul>
+
+            <h3 class="resource-group-title">Real-World Case Studies &amp; Reporting</h3>
+            <ul class="resource-list">
+                <li>AI&rsquo;s Future for Students Is in Our Hands (Brookings, 2026) &ndash; <a href="https://www.brookings.edu/articles/ais-future-for-students-is-in-our-hands/" target="_blank" rel="noopener">Brookings Institution</a> &ndash; AI risks outweigh benefits for students without structured guidance</li>
+                <li>Ohio State Requires AI Fluency for All Students (Fortune, 2025) &ndash; <a href="https://fortune.com/2025/06/10/ohio-state-university-ai-fluency-requirement-all-students/" target="_blank" rel="noopener">Fortune</a> &ndash; University mandates AI literacy as a graduation requirement</li>
+                <li>AI Trust Gap: Students vs. Teachers (Fast Company, 2024) &ndash; <a href="https://www.fastcompany.com/91369428/ai-trust-college-students-teachers" target="_blank" rel="noopener">Fast Company</a> &ndash; Survey reveals divergent trust in AI between students and educators</li>
+                <li>86% of Students Already Use AI (Campus Technology, 2024) &ndash; <a href="https://campustechnology.com/articles/2024/08/28/survey-86-of-students-already-use-ai-in-their-studies.aspx" target="_blank" rel="noopener">Campus Technology</a> &ndash; Student AI adoption outpaces institutional guidance</li>
+                <li>Rising AI Use in Schools Brings Big Downsides (EdWeek, 2025) &ndash; <a href="https://www.edweek.org/technology/rising-use-of-ai-in-schools-comes-with-big-downsides-for-students/2025/10" target="_blank" rel="noopener">Education Week</a> &ndash; Challenges from widespread AI use in K-12 education</li>
+            </ul>
+        </section>
 
     </article>
 
